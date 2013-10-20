@@ -1,0 +1,7 @@
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  b = branch
+  ls = log --graph --all --color --pretty='%x09%h %cn%x09%s %Cred%d%Creset'
+

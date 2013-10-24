@@ -1,1 +1,1 @@
-default[:user] = 'vagrant'
+default[:user] = node[:current_user]

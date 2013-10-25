@@ -1,6 +1,11 @@
 {
+  "git" : {
+    "user" : {
+      "name" : "oriroi"
+    }
+  },
   "run_list" : [
-    "recipe[vim]"
+    "recipe[git]"
   ]
 }
 

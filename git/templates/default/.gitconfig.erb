@@ -1,0 +1,17 @@
+[user]
+    name = <%= @user[:name] %>
+    <% unless @user[:email].empty? %>
+    email = <%= @user[:email] %>
+    <% end %>
+[core]
+    editor = vi
+    pager = less -FRSX
+[color]
+    ui = auto
+[alias]
+    b  = branch
+    co = checkout
+    ci = commit
+    st = status
+    ls = log --graph --all --color --pretty=format:'%Cgreen%h %cd %Cred%cn %Creset%s %Cred%d'
+
